@@ -1,0 +1,16 @@
+@using BestRestaurants.Models;
+@model BestRestaurants.Models.Cuisines;
+  
+<h3>Cuisines Search</h3>
+
+@using (Html.BeginForm())
+{
+  @Html.LabelFor(model => model.Name)
+  @Html.TextBoxFor(model => model.Name)
+
+  <input type="submit" value="Search"/>
+}
+
+
+<p>@Html.ActionLink("See all cuisine options", "Index", "Cuisines")</p>
+<p>@Html.ActionLink("See all restaurants", "Index", "Restaurants")</p>
