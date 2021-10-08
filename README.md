@@ -1,11 +1,11 @@
-# OrderTrackingApp
+# Best Restaurnat in Town
 
-#### C# web application short description
+#### C# web application that lets you create a cuisine category and add restaurtants to it. 
 
 #### By Roman Kolivashko
 
 ## Technologies Used:
-
+---
 * C#
 * .Net v5
 * MSTest
@@ -14,7 +14,7 @@
 * Razor
 
 ## Project objectives
-
+---
 * Add a Cuisine class. Build out all CRUD functionality (Create, Read, Update, Delete) for this class. Remember that "Read" means to view a particular cuisine and to list out all of the cuisines.
 
 * Add a Restaurant class. Build out all CRUD functionality for this class.
@@ -26,7 +26,7 @@
 * Allow a user to search for all of a cuisine's restaurants.
 
 ## Setup/Installation Requirements
-
+---
 * Download and install .NET Core
 * Download and install MySQL Workbench
 * _Clone this repository_ `git clone https://github.com/romankolivashko/BestResturant.git`
@@ -36,10 +36,12 @@
 
 
 ## Known Bugs
-
+---
 * Refer to [the GitHub issues page](https://github.com/romankolivashko/BestResturant/issues) to see existing bugs or report new ones. 
 
 ## License
+---
 MIT
 ## Contact Information
+---
 rkolivashko@gmail.com
